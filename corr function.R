@@ -10,9 +10,9 @@ corr <- function(directory, threashold = 0) {
         pos_id <- 1
         id = 1:332
         cor_data <- 1
-        print(cor_data)
+        #print(cor_data)
         length(cor_data) <- 0
-        print(cor_data)
+        #print(cor_data)
         
         for(i in id) {
                 if(id[pos_id] < 10) {

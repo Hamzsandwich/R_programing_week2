@@ -29,5 +29,5 @@ complete <- function(directory, id = 1:332){
                 comp_num_data <- rbind(comp_num_data, add_vec)
                 
         }
-        print(comp_num_data)
+        comp_num_data
 }
